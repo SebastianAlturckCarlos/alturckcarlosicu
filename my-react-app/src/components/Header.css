@@ -1,0 +1,38 @@
+/* components/Header.css */
+/* components/Header.css */
+.header {
+    width: 100%; /* Ensure the header spans the full width */
+    background: transparent;
+    padding: 0; /* Remove any padding or margin */
+  }
+  
+  
+  .header-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .initials {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .divider {
+    flex-grow: 1;
+    margin-left: 20px;
+    border: none;
+    border-top: 2px solid white;
+  }
+  
